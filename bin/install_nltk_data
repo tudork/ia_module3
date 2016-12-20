@@ -15,7 +15,7 @@ echo "-----> Starting nltk data installation"
 python -m nltk.downloader wordnet
 
 # If using Textblob, use this instead:
-# python -m textblob.download_corpora lite
+python -m textblob.download_corpora lite
 
 # Open the NLTK_DATA directory
 cd ${NLTK_DATA}
