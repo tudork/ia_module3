@@ -2,7 +2,7 @@ from flask import Flask, jsonify, request
 from preprocessing import *
 from semantic_processing import *
 from syntax_processing import *
-nltk.data.path.append('nltk_data/')
+nltk.data.path.append('./nltk_data/')
 
 app = Flask(__name__)
 
