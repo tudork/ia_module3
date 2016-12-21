@@ -1,1 +1,1 @@
-__all__ = ["synsetSentence"]
+__all__ = ["semantic_processing"]
