@@ -22,6 +22,9 @@ def respond():
     if "text" in request.form:
         return jsonify(processText(request.form["text"]))
 
+@app.route('/process/<string:text>', methods=['GET'])
+def respondGet(text):
+    return jsonify(processText(text))
 
 
 if __name__ == '__main__':
